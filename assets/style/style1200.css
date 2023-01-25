@@ -1,0 +1,134 @@
+@media (max-width: 1200px) {
+    .container{    
+        width: 980px;
+    }
+    header{
+        height: 600px;
+    }
+    .header-container {
+        width: 800px;
+    }
+    section{
+        height: auto;
+        font-size: 24px;
+    }
+    h2,
+    .descript-h2,
+    .descript-p span:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .descript-text{
+        width: 60%; 
+        margin-right: 50px;
+    }
+    .descript-p p{
+        line-height: 30px;
+    }
+    .law-text{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .law-offer p{
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .law-offer h3{
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .law .abs-container span{
+        font-size: 14px;
+    }
+    .in_half-text ul{
+        margin: 20px;
+    }
+    .in_half-text ul li{
+        font-size: 20px;
+    }
+    .franchise .in_half-text ul li{
+        line-height: 40px;
+    }
+    .purchase .in_half-text ul{
+        margin: 10px;
+    }
+    .purchase .in_half-text ul li{
+        font-size: 20px;
+    }
+    .open{
+        height: 600px;
+    }  
+    .step {
+        padding: 50px 10px;
+    }  
+    .step h2{
+        width: 90%;
+    }
+    .step ol li span{
+        line-height: 30px;
+    }
+    .step ol li{
+        width: 42%;
+        font-size: 22px;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+    }
+    .step ol li i{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .income-text{
+        height: 60%;
+    }
+    .income-text .demo-descript-ul{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .income-slider{
+        height: 40%;    
+    }
+    .social-logo{
+        padding: 50px;
+    }
+    .social-links{ 
+        padding: 100px 50px;
+        gap: 50px;
+    }
+    
+    footer{
+        height: auto;
+        align-items: center;
+    }
+    footer h2{
+        font-size: 50px;
+    }
+    .footer-text{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .feedback{
+        padding: 50px;
+    }
+    .feedback div{
+        margin-bottom: 40px;
+    }
+    .feedback h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .feedback h3::after{
+        width: 40px;
+        height: 6px;
+        top: -15px;
+    }
+    .feedback a{
+        font-size: 24px;
+        line-height: 120%;
+    }
+}

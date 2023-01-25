@@ -21,6 +21,7 @@
 }
 *{
     background-size: cover;
+    background-position: center;
 }
 body{
     font-family: 'mon400';
@@ -186,6 +187,7 @@ h2::after{
 .law{
     background-image: url('../bg/law.jpg');
     display: flex;
+    align-items: stretch;
 }
 .law h2::after{    
     top: -20px;
@@ -196,7 +198,6 @@ h2::after{
 }
 .law-text,
 .law-offer{
-    height: 100%;
     text-align: center;
     line-height: 150%;
 }
@@ -266,7 +267,6 @@ h2::after{
 }
 .in_half-img {    
     width: 50%;
-    height: 100%;
     background-position: center;
     position: relative;
     pointer-events: none;
@@ -424,11 +424,11 @@ h2::after{
 }
 .income-text{
     height: 50%;
-    display: flex;
+    display: flex;    
+    margin-bottom: 40px;
 }
 .income-text .demo{
     width: 50%;
-    height: 90%;
     background-image: url('../bg/demo.jpg');
     background-position: center;
     display: flex;
@@ -438,7 +438,12 @@ h2::after{
 }
 .income-text .demo-active{
     background-color: var(--ye);
-    padding: 70px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
     font-family: 'mon700';
     color: #000;
     transition: 1s;
@@ -454,15 +459,15 @@ h2::after{
 
 .income-text .demo-descript{
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 .income-text .demo-descript-ul{
     font-size: 22px;
     line-height: 140%;
+
 }
 .income-text .demo-descript-ul ul{
     margin: 0;
@@ -499,7 +504,6 @@ h2::after{
 .social-logo{
     background-color: var(--ye);
     width: 30%;
-    height: 100%;
     padding: 100px;
 }
 .social-logo h2{
@@ -555,6 +559,7 @@ footer{
 footer h2{
     font-size: 60px;
     text-transform: uppercase;
+    margin-left: 20px;
 }
 footer h2::after{
     width: 0;

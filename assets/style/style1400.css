@@ -1,0 +1,51 @@
+@media (max-width: 1400px) {
+    .container{    
+        width: 1200px;
+    }
+    .header-container {
+        width: 1000px;
+    }
+    h2,
+    .descript-h2,
+    .descript-p span:nth-child(2){
+        margin-bottom: 70px;
+    }
+    .descript-text{
+        width: 50%;
+    }
+    .law-text{
+        padding: 50px 50px;
+    }
+    .law-offer p{
+        margin-bottom: 50px;
+    }
+    .law-offer h3{
+        margin-bottom: 50px;
+    }
+    .in_half-text ul{
+        margin: 20px;
+    }
+    .in_half-text ul li{
+        font-size: 24px;
+    }
+    .purchase .in_half-text ul{
+        margin: 10px;
+    }
+    .purchase .in_half-text ul li{
+        font-size: 22px;
+    }
+    .step ol li span{
+        line-height: 30px;
+    }
+    .income-text .demo-descript-ul{
+        font-size: 20px;
+    }
+    .social-logo{
+        width: 40%;
+    }
+    .social-links{
+        width: 60%;
+        padding: 100px;
+    }
+    
+}
