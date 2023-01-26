@@ -420,7 +420,8 @@ h2::after{
 }
 /*----------------------main-income--------------------*/
 .income{
-    background-color: var(--dg-text-dark);
+    background-color: var(--dg-text-dark);    
+    overflow: hidden;
 }
 .income-text{
     height: 50%;
