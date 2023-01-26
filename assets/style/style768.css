@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    .container{    
+        width: 530px;
+    }
+    .header-container {
+        width: 530px;
+    }
+    h1{
+        font-size: 26px;
+        font-family: 'mon400';
+    }
+    h1 span{
+        font-size: 80px;
+    }
+    header .left,
+    header .right {
+        width: 48%;
+    }
+    header .left span,
+    header .right span {
+        font-size: 16px;
+    }
+    section{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .descript-text{
+        width: 80%; 
+        margin: 0 auto;
+    }
+    .law{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .law-text,
+    .law-offer{
+        width: 100%;
+    }
+    .law-text{
+        padding: 70px 40px 20px 40px;
+    }
+    .law .abs-container span{
+        font-size: 12px;
+    }
+    .in_half{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .in_half-text {
+        width: 100%;
+    }
+    .in_half-img {    
+        width: 100%;
+        height: 400px;
+    }
+    .step ol li span{
+        line-height: 30px;
+    }
+    .step ol li{
+        width: 70%;
+        margin-bottom: 15px;
+    }
+    .income-text{
+        flex-direction: column;
+    }
+    .income-text .demo{
+        width: 100%;
+        height: 400px;
+    }
+    .income-text .demo-descript{
+        width: 100%;
+        margin: 40px 10px 10px 10px;
+    }
+    .social{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-logo{
+        width: 100%;
+        padding: 40px;
+    }
+    .social-links{ 
+        width: 100%;
+        padding: 50px 30px;
+    }    
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+    }
+    footer h2{
+        font-size: 40px;
+        margin: 60px;
+    }
+    .footer-text{
+        width: 100%;
+    }    
+    .feedback{
+        width: 100%;
+    }
+}

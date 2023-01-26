@@ -1,0 +1,59 @@
+@media (max-width: 390px) {
+    .container{    
+        width: 310px;
+    }
+    .header-container {
+        width: 100%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h1 span{
+        font-size: 50px;
+    }
+    .ya-button{
+        font-size: 18px;
+    }
+    h2{
+        line-height: 120%;
+    }
+    .descript-text{
+        width: 90%; 
+        padding: 40px 10px;
+    }
+    .descript-p span:nth-child(2){
+        margin-bottom: 20px;
+    }
+    .law-text{
+        padding: 50px 10px 40px 10px;
+    }
+    .in_half-text ul{
+        padding-left: 10px;
+    }
+    .in_half-text ul li{
+        font-size: 16px;
+    }
+    .purchase .in_half-text ul li{
+        font-size: 16px;
+    }
+    .franchise .in_half-text ul li{
+        line-height: 25px;
+    }
+    .open h3{
+        line-height: 140%;
+    }
+    .step ol li{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .social-link-vk .social-link-text{
+        font-size: 12px;
+    }
+    .social-link-vk .social-link-text span{
+        font-size: 18px;
+    }
+    footer h2{
+        font-size: 36px;
+        margin: 60px;
+    }
+}

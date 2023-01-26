@@ -1,0 +1,25 @@
+@media (max-width: 470px) {
+    .container{    
+        width: 380px;
+    }
+    .header-container {
+        width: 360px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h1 span{
+        font-size: 60px;
+    }
+    .ya-button{
+        width: 90%;
+        font-size: 20px;
+    }
+    header .abs-container {
+        display: none;
+    }
+    .social-link a img{
+        width: 80px;
+        padding: 5px;
+    }
+}

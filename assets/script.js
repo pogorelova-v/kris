@@ -17,9 +17,13 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 10,  
-    
+    breakpoints:{
+      768: {
+        slidesPerView: 3,
+      },
+    },
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
