@@ -65,6 +65,19 @@
         width: 70%;
         margin-bottom: 15px;
     }
+    
+    .step ol li:nth-child(1){
+        order: 0;
+    }
+    .step ol li:nth-child(2){
+        order: 1;
+    }
+    .step ol li:nth-child(3){
+        order: 2;
+    }
+    .step ol li:nth-child(4){
+        order: 4;
+    }
     .income-text{
         flex-direction: column;
     }
