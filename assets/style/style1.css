@@ -38,7 +38,7 @@ body{
 
 header{
     background-image: url('../bg/header.jpg');
-    height: 100vh;
+    height: 800px;
     position: relative;    
     margin-bottom: 10px;
 }
@@ -123,7 +123,6 @@ header .right {
 /*----------------------main--------------------*/
 
 section{
-    height: 100vh;
     margin-bottom: 10px;    
     font-size: 26px;
     position: relative;
@@ -155,7 +154,7 @@ h2::after{
     height: 100%;
     margin-left: auto;    
     margin-right: 100px;
-    padding: 40px 60px;
+    padding: 100px 60px;
     background-color: var(--dg-text);
 }
 .descript-h2{
@@ -187,7 +186,6 @@ h2::after{
 .law{
     background-image: url('../bg/law.jpg');
     display: flex;
-    align-items: stretch;
 }
 .law h2::after{    
     top: -20px;
@@ -256,7 +254,7 @@ h2::after{
 .in_half-text {
     width: 50%;
     height: 100%;
-    padding: 50px;
+    padding: 100px 50px;
     background-color: var(--dg-text-dark);
 }
 .in_half-text ul{
@@ -337,6 +335,7 @@ h2::after{
 
 .open{
     background-image: url('../bg/open.jpg');
+    height: 800px;
 }
 .open-container {
     display: flex;
@@ -364,6 +363,7 @@ h2::after{
 /*----------------------main-step--------------------*/
 .step{
     background-image: url('../bg/step.jpg');
+    height: 1000px;
 }
 .step-container{
     display: flex;
@@ -422,6 +422,7 @@ h2::after{
 .income{
     background-color: var(--dg-text-dark);    
     overflow: hidden;
+    height: 800px;
 }
 .income-text{
     height: 50%;
@@ -551,10 +552,11 @@ h2::after{
 /*-----------------------------footer----------------------------*/
 
 footer{
-    height: 100vh;
     background-image: url(../bg/footer.jpg);
     display: flex;
     position: relative;
+    height: 800px;
+
 }
 footer h2{
     font-size: 60px;
