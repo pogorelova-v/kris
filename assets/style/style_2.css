@@ -311,7 +311,7 @@ h2::after{
     background-color: var(--dg-text);
 }
 .franchise .in_half-text ul li{
-    line-height: 80px;
+    margin-bottom: 30px;
 }
 .franchise .in_half-img img{    
     left: 0;

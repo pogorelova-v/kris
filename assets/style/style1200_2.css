@@ -32,7 +32,6 @@
     }
     .law-offer p{
         margin-bottom: 30px;
-        font-size: 24px;
     }
     .law-offer h3{
         font-size: 34px;
@@ -47,18 +46,12 @@
     .in_half-text ul li{
         font-size: 20px;
     }
-    .franchise .in_half-text ul li{
-        line-height: 40px;
-    }
     .purchase .in_half-text ul{
         margin: 10px;
     }
     .purchase .in_half-text ul li{
         font-size: 20px;
     }
-    .open{
-        height: 600px;
-    }  
     .step {
         padding: 50px 10px;
         height: 700px;

@@ -72,6 +72,9 @@
         font-size: 30px;
         margin-bottom: 20px;
     }
+    .franchise .in_half-text ul li{
+        margin-bottom: 20px;
+    }
     .in_half h2::after{
         height: 6px;
         bottom: -15px;
@@ -90,6 +93,9 @@
     }
     .purchase .in_half-text ul li{
         font-size: 18px;
+    }
+    .step{
+        height: 600px;
     }
     .step ol li span{
         line-height: 30px;
